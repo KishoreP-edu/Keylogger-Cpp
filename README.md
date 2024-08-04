@@ -9,14 +9,18 @@ What is a Keylogger?
 
 A keylogger is a type of monitoring software designed to record keystrokes made by a user on their keyboard. This data can be used to capture sensitive information like passwords, personal messages, and other confidential data. Keyloggers can be implemented in software or hardware and are often used maliciously to steal information. However, they also have legitimate uses in security research and monitoring authorized activity.
 
-Keylogger Code Explanation
-Introduction
+# Keylogger Code Explanation
+
+#  Introduction
+
 This project demonstrates a simple keylogger implemented in C++ using the Windows API. It captures and logs key presses to a file named log.txt.
 
 Files and Dependencies
+
 keylogger.cpp: The main source code file.
 
 Dependencies:
+
   <iostream>: For standard input and output.
   <windows.h>: For Windows API functions.
   <stdio.h>: For file manipulation functions.
